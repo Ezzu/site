@@ -1,0 +1,124 @@
+[06-Dec-2018 03:19:13 UTC] PHP Warning:  require_once(/home/v2huehajqkaq/public_html/public/index.php): failed to open stream: No such file or directory in /home/v2huehajqkaq/public_html/server.php on line 21
+[06-Dec-2018 03:19:13 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/v2huehajqkaq/public_html/public/index.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/v2huehajqkaq/public_html/server.php on line 21
+[02-Apr-2019 03:11:09 UTC] PHP Warning:  require_once(/home/v2huehajqkaq/public_html/public/index.php): failed to open stream: No such file or directory in /home/v2huehajqkaq/public_html/server.php on line 21
+[02-Apr-2019 03:11:09 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/v2huehajqkaq/public_html/public/index.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/v2huehajqkaq/public_html/server.php on line 21
+[25-May-2019 10:03:06 UTC] PHP Warning:  Uncaught ErrorException: require(/home/v2huehajqkaq/public_html/routes/api.php): failed to open stream: No such file or directory in /home/v2huehajqkaq/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php:393
+Stack trace:
+#0 /home/v2huehajqkaq/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(393): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require(/home/v...', '/home/v2huehajq...', 393, Array)
+#1 /home/v2huehajqkaq/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(393): require()
+#2 /home/v2huehajqkaq/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(349): Illuminate\Routing\Router->loadRoutes('/home/v2huehajq...')
+#3 /home/v2huehajqkaq/public_html/vendor/laravel/framework/src/Illuminate/Routing/RouteRegistrar.php(105): Illuminate\Routing\Router->group(Array, '/home/v2huehajq...')
+#4 /home/v2huehajqkaq/public_html/app/Providers/RouteServiceProvider.php(71): Illuminate\Routing\RouteRegistrar->group('/home/v in /home/v2huehajqkaq/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php on line 393
+[25-May-2019 10:03:06 UTC] PHP Fatal error:  Illuminate\Routing\Router::loadRoutes(): Failed opening required '/home/v2huehajqkaq/public_html/routes/api.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/v2huehajqkaq/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php on line 393
+[25-May-2019 10:24:24 UTC] PHP Warning:  Uncaught ErrorException: require(/home/v2huehajqkaq/public_html/routes/api.php): failed to open stream: No such file or directory in /home/v2huehajqkaq/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php:393
+Stack trace:
+#0 /home/v2huehajqkaq/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(393): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require(/home/v...', '/home/v2huehajq...', 393, Array)
+#1 /home/v2huehajqkaq/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(393): require()
+#2 /home/v2huehajqkaq/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(349): Illuminate\Routing\Router->loadRoutes('/home/v2huehajq...')
+#3 /home/v2huehajqkaq/public_html/vendor/laravel/framework/src/Illuminate/Routing/RouteRegistrar.php(105): Illuminate\Routing\Router->group(Array, '/home/v2huehajq...')
+#4 /home/v2huehajqkaq/public_html/app/Providers/RouteServiceProvider.php(71): Illuminate\Routing\RouteRegistrar->group('/home/v in /home/v2huehajqkaq/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php on line 393
+[25-May-2019 10:24:24 UTC] PHP Fatal error:  Illuminate\Routing\Router::loadRoutes(): Failed opening required '/home/v2huehajqkaq/public_html/routes/api.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/v2huehajqkaq/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php on line 393
+[25-May-2019 10:24:26 UTC] PHP Warning:  Uncaught ErrorException: require(/home/v2huehajqkaq/public_html/routes/api.php): failed to open stream: No such file or directory in /home/v2huehajqkaq/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php:393
+Stack trace:
+#0 /home/v2huehajqkaq/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(393): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require(/home/v...', '/home/v2huehajq...', 393, Array)
+#1 /home/v2huehajqkaq/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(393): require()
+#2 /home/v2huehajqkaq/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(349): Illuminate\Routing\Router->loadRoutes('/home/v2huehajq...')
+#3 /home/v2huehajqkaq/public_html/vendor/laravel/framework/src/Illuminate/Routing/RouteRegistrar.php(105): Illuminate\Routing\Router->group(Array, '/home/v2huehajq...')
+#4 /home/v2huehajqkaq/public_html/app/Providers/RouteServiceProvider.php(71): Illuminate\Routing\RouteRegistrar->group('/home/v in /home/v2huehajqkaq/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php on line 393
+[25-May-2019 10:24:26 UTC] PHP Fatal error:  Illuminate\Routing\Router::loadRoutes(): Failed opening required '/home/v2huehajqkaq/public_html/routes/api.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/v2huehajqkaq/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php on line 393
+[25-May-2019 10:24:52 UTC] PHP Warning:  Uncaught ErrorException: require(/home/v2huehajqkaq/public_html/routes/api.php): failed to open stream: No such file or directory in /home/v2huehajqkaq/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php:393
+Stack trace:
+#0 /home/v2huehajqkaq/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(393): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require(/home/v...', '/home/v2huehajq...', 393, Array)
+#1 /home/v2huehajqkaq/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(393): require()
+#2 /home/v2huehajqkaq/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(349): Illuminate\Routing\Router->loadRoutes('/home/v2huehajq...')
+#3 /home/v2huehajqkaq/public_html/vendor/laravel/framework/src/Illuminate/Routing/RouteRegistrar.php(105): Illuminate\Routing\Router->group(Array, '/home/v2huehajq...')
+#4 /home/v2huehajqkaq/public_html/app/Providers/RouteServiceProvider.php(71): Illuminate\Routing\RouteRegistrar->group('/home/v in /home/v2huehajqkaq/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php on line 393
+[25-May-2019 10:24:52 UTC] PHP Fatal error:  Illuminate\Routing\Router::loadRoutes(): Failed opening required '/home/v2huehajqkaq/public_html/routes/api.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/v2huehajqkaq/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php on line 393
+[25-May-2019 10:24:55 UTC] PHP Warning:  Uncaught ErrorException: require(/home/v2huehajqkaq/public_html/routes/api.php): failed to open stream: No such file or directory in /home/v2huehajqkaq/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php:393
+Stack trace:
+#0 /home/v2huehajqkaq/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(393): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require(/home/v...', '/home/v2huehajq...', 393, Array)
+#1 /home/v2huehajqkaq/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(393): require()
+#2 /home/v2huehajqkaq/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(349): Illuminate\Routing\Router->loadRoutes('/home/v2huehajq...')
+#3 /home/v2huehajqkaq/public_html/vendor/laravel/framework/src/Illuminate/Routing/RouteRegistrar.php(105): Illuminate\Routing\Router->group(Array, '/home/v2huehajq...')
+#4 /home/v2huehajqkaq/public_html/app/Providers/RouteServiceProvider.php(71): Illuminate\Routing\RouteRegistrar->group('/home/v in /home/v2huehajqkaq/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php on line 393
+[25-May-2019 10:24:55 UTC] PHP Fatal error:  Illuminate\Routing\Router::loadRoutes(): Failed opening required '/home/v2huehajqkaq/public_html/routes/api.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/v2huehajqkaq/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php on line 393
+[25-May-2019 10:25:08 UTC] PHP Warning:  Uncaught ErrorException: require(/home/v2huehajqkaq/public_html/routes/api.php): failed to open stream: No such file or directory in /home/v2huehajqkaq/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php:393
+Stack trace:
+#0 /home/v2huehajqkaq/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(393): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require(/home/v...', '/home/v2huehajq...', 393, Array)
+#1 /home/v2huehajqkaq/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(393): require()
+#2 /home/v2huehajqkaq/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(349): Illuminate\Routing\Router->loadRoutes('/home/v2huehajq...')
+#3 /home/v2huehajqkaq/public_html/vendor/laravel/framework/src/Illuminate/Routing/RouteRegistrar.php(105): Illuminate\Routing\Router->group(Array, '/home/v2huehajq...')
+#4 /home/v2huehajqkaq/public_html/app/Providers/RouteServiceProvider.php(71): Illuminate\Routing\RouteRegistrar->group('/home/v in /home/v2huehajqkaq/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php on line 393
+[25-May-2019 10:25:08 UTC] PHP Fatal error:  Illuminate\Routing\Router::loadRoutes(): Failed opening required '/home/v2huehajqkaq/public_html/routes/api.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/v2huehajqkaq/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php on line 393
+[25-May-2019 10:25:10 UTC] PHP Warning:  Uncaught ErrorException: require(/home/v2huehajqkaq/public_html/routes/api.php): failed to open stream: No such file or directory in /home/v2huehajqkaq/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php:393
+Stack trace:
+#0 /home/v2huehajqkaq/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(393): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require(/home/v...', '/home/v2huehajq...', 393, Array)
+#1 /home/v2huehajqkaq/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(393): require()
+#2 /home/v2huehajqkaq/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(349): Illuminate\Routing\Router->loadRoutes('/home/v2huehajq...')
+#3 /home/v2huehajqkaq/public_html/vendor/laravel/framework/src/Illuminate/Routing/RouteRegistrar.php(105): Illuminate\Routing\Router->group(Array, '/home/v2huehajq...')
+#4 /home/v2huehajqkaq/public_html/app/Providers/RouteServiceProvider.php(71): Illuminate\Routing\RouteRegistrar->group('/home/v in /home/v2huehajqkaq/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php on line 393
+[25-May-2019 10:25:10 UTC] PHP Fatal error:  Illuminate\Routing\Router::loadRoutes(): Failed opening required '/home/v2huehajqkaq/public_html/routes/api.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/v2huehajqkaq/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php on line 393
+[25-May-2019 10:27:28 UTC] PHP Warning:  Uncaught ErrorException: require(/home/v2huehajqkaq/public_html/routes/api.php): failed to open stream: No such file or directory in /home/v2huehajqkaq/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php:393
+Stack trace:
+#0 /home/v2huehajqkaq/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(393): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require(/home/v...', '/home/v2huehajq...', 393, Array)
+#1 /home/v2huehajqkaq/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(393): require()
+#2 /home/v2huehajqkaq/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(349): Illuminate\Routing\Router->loadRoutes('/home/v2huehajq...')
+#3 /home/v2huehajqkaq/public_html/vendor/laravel/framework/src/Illuminate/Routing/RouteRegistrar.php(105): Illuminate\Routing\Router->group(Array, '/home/v2huehajq...')
+#4 /home/v2huehajqkaq/public_html/app/Providers/RouteServiceProvider.php(71): Illuminate\Routing\RouteRegistrar->group('/home/v in /home/v2huehajqkaq/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php on line 393
+[25-May-2019 10:27:28 UTC] PHP Fatal error:  Illuminate\Routing\Router::loadRoutes(): Failed opening required '/home/v2huehajqkaq/public_html/routes/api.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/v2huehajqkaq/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php on line 393
+[25-May-2019 10:27:30 UTC] PHP Warning:  Uncaught ErrorException: require(/home/v2huehajqkaq/public_html/routes/api.php): failed to open stream: No such file or directory in /home/v2huehajqkaq/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php:393
+Stack trace:
+#0 /home/v2huehajqkaq/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(393): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require(/home/v...', '/home/v2huehajq...', 393, Array)
+#1 /home/v2huehajqkaq/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(393): require()
+#2 /home/v2huehajqkaq/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(349): Illuminate\Routing\Router->loadRoutes('/home/v2huehajq...')
+#3 /home/v2huehajqkaq/public_html/vendor/laravel/framework/src/Illuminate/Routing/RouteRegistrar.php(105): Illuminate\Routing\Router->group(Array, '/home/v2huehajq...')
+#4 /home/v2huehajqkaq/public_html/app/Providers/RouteServiceProvider.php(71): Illuminate\Routing\RouteRegistrar->group('/home/v in /home/v2huehajqkaq/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php on line 393
+[25-May-2019 10:27:30 UTC] PHP Fatal error:  Illuminate\Routing\Router::loadRoutes(): Failed opening required '/home/v2huehajqkaq/public_html/routes/api.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/v2huehajqkaq/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php on line 393
+[25-May-2019 10:40:19 UTC] PHP Warning:  Uncaught ErrorException: require(/home/v2huehajqkaq/public_html/routes/api.php): failed to open stream: No such file or directory in /home/v2huehajqkaq/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php:393
+Stack trace:
+#0 /home/v2huehajqkaq/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(393): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require(/home/v...', '/home/v2huehajq...', 393, Array)
+#1 /home/v2huehajqkaq/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(393): require()
+#2 /home/v2huehajqkaq/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(349): Illuminate\Routing\Router->loadRoutes('/home/v2huehajq...')
+#3 /home/v2huehajqkaq/public_html/vendor/laravel/framework/src/Illuminate/Routing/RouteRegistrar.php(105): Illuminate\Routing\Router->group(Array, '/home/v2huehajq...')
+#4 /home/v2huehajqkaq/public_html/app/Providers/RouteServiceProvider.php(71): Illuminate\Routing\RouteRegistrar->group('/home/v in /home/v2huehajqkaq/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php on line 393
+[25-May-2019 10:40:19 UTC] PHP Fatal error:  Illuminate\Routing\Router::loadRoutes(): Failed opening required '/home/v2huehajqkaq/public_html/routes/api.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/v2huehajqkaq/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php on line 393
+[25-May-2019 10:46:00 UTC] PHP Warning:  Uncaught ErrorException: require(/home/v2huehajqkaq/public_html/routes/api.php): failed to open stream: No such file or directory in /home/v2huehajqkaq/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php:393
+Stack trace:
+#0 /home/v2huehajqkaq/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(393): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require(/home/v...', '/home/v2huehajq...', 393, Array)
+#1 /home/v2huehajqkaq/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(393): require()
+#2 /home/v2huehajqkaq/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(349): Illuminate\Routing\Router->loadRoutes('/home/v2huehajq...')
+#3 /home/v2huehajqkaq/public_html/vendor/laravel/framework/src/Illuminate/Routing/RouteRegistrar.php(105): Illuminate\Routing\Router->group(Array, '/home/v2huehajq...')
+#4 /home/v2huehajqkaq/public_html/app/Providers/RouteServiceProvider.php(71): Illuminate\Routing\RouteRegistrar->group('/home/v in /home/v2huehajqkaq/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php on line 393
+[25-May-2019 10:46:00 UTC] PHP Fatal error:  Illuminate\Routing\Router::loadRoutes(): Failed opening required '/home/v2huehajqkaq/public_html/routes/api.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/v2huehajqkaq/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php on line 393
+[25-May-2019 10:46:00 UTC] PHP Warning:  Uncaught ErrorException: require(/home/v2huehajqkaq/public_html/routes/api.php): failed to open stream: No such file or directory in /home/v2huehajqkaq/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php:393
+Stack trace:
+#0 /home/v2huehajqkaq/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(393): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require(/home/v...', '/home/v2huehajq...', 393, Array)
+#1 /home/v2huehajqkaq/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(393): require()
+#2 /home/v2huehajqkaq/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(349): Illuminate\Routing\Router->loadRoutes('/home/v2huehajq...')
+#3 /home/v2huehajqkaq/public_html/vendor/laravel/framework/src/Illuminate/Routing/RouteRegistrar.php(105): Illuminate\Routing\Router->group(Array, '/home/v2huehajq...')
+#4 /home/v2huehajqkaq/public_html/app/Providers/RouteServiceProvider.php(71): Illuminate\Routing\RouteRegistrar->group('/home/v in /home/v2huehajqkaq/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php on line 393
+[25-May-2019 10:46:00 UTC] PHP Fatal error:  Illuminate\Routing\Router::loadRoutes(): Failed opening required '/home/v2huehajqkaq/public_html/routes/api.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/v2huehajqkaq/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php on line 393
+[25-May-2019 11:08:32 UTC] PHP Warning:  Uncaught ErrorException: require(/home/v2huehajqkaq/public_html/routes/api.php): failed to open stream: No such file or directory in /home/v2huehajqkaq/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php:393
+Stack trace:
+#0 /home/v2huehajqkaq/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(393): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require(/home/v...', '/home/v2huehajq...', 393, Array)
+#1 /home/v2huehajqkaq/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(393): require()
+#2 /home/v2huehajqkaq/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(349): Illuminate\Routing\Router->loadRoutes('/home/v2huehajq...')
+#3 /home/v2huehajqkaq/public_html/vendor/laravel/framework/src/Illuminate/Routing/RouteRegistrar.php(105): Illuminate\Routing\Router->group(Array, '/home/v2huehajq...')
+#4 /home/v2huehajqkaq/public_html/app/Providers/RouteServiceProvider.php(71): Illuminate\Routing\RouteRegistrar->group('/home/v in /home/v2huehajqkaq/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php on line 393
+[25-May-2019 11:08:32 UTC] PHP Fatal error:  Illuminate\Routing\Router::loadRoutes(): Failed opening required '/home/v2huehajqkaq/public_html/routes/api.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/v2huehajqkaq/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php on line 393
+[25-May-2019 11:15:32 UTC] PHP Warning:  Uncaught ErrorException: require(/home/v2huehajqkaq/public_html/routes/api.php): failed to open stream: No such file or directory in /home/v2huehajqkaq/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php:393
+Stack trace:
+#0 /home/v2huehajqkaq/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(393): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require(/home/v...', '/home/v2huehajq...', 393, Array)
+#1 /home/v2huehajqkaq/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(393): require()
+#2 /home/v2huehajqkaq/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(349): Illuminate\Routing\Router->loadRoutes('/home/v2huehajq...')
+#3 /home/v2huehajqkaq/public_html/vendor/laravel/framework/src/Illuminate/Routing/RouteRegistrar.php(105): Illuminate\Routing\Router->group(Array, '/home/v2huehajq...')
+#4 /home/v2huehajqkaq/public_html/app/Providers/RouteServiceProvider.php(71): Illuminate\Routing\RouteRegistrar->group('/home/v in /home/v2huehajqkaq/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php on line 393
+[25-May-2019 11:15:32 UTC] PHP Fatal error:  Illuminate\Routing\Router::loadRoutes(): Failed opening required '/home/v2huehajqkaq/public_html/routes/api.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/v2huehajqkaq/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php on line 393
+[25-May-2019 11:48:39 UTC] PHP Warning:  Uncaught ErrorException: require(/home/v2huehajqkaq/public_html/routes/api.php): failed to open stream: No such file or directory in /home/v2huehajqkaq/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php:393
+Stack trace:
+#0 /home/v2huehajqkaq/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(393): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require(/home/v...', '/home/v2huehajq...', 393, Array)
+#1 /home/v2huehajqkaq/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(393): require()
+#2 /home/v2huehajqkaq/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(349): Illuminate\Routing\Router->loadRoutes('/home/v2huehajq...')
+#3 /home/v2huehajqkaq/public_html/vendor/laravel/framework/src/Illuminate/Routing/RouteRegistrar.php(105): Illuminate\Routing\Router->group(Array, '/home/v2huehajq...')
+#4 /home/v2huehajqkaq/public_html/app/Providers/RouteServiceProvider.php(71): Illuminate\Routing\RouteRegistrar->group('/home/v in /home/v2huehajqkaq/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php on line 393
+[25-May-2019 11:48:39 UTC] PHP Fatal error:  Illuminate\Routing\Router::loadRoutes(): Failed opening required '/home/v2huehajqkaq/public_html/routes/api.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/v2huehajqkaq/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php on line 393

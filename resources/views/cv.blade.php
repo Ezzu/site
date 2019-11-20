@@ -1,0 +1,1 @@
+Applied for Job : {{$name}}
